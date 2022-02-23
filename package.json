@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng run example:server && node dist/example/server/main.js",
+    "start": "ng run example:server --bundle-dependencies && node dist/example/server/main.js",
     "serve": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
@@ -26,7 +26,7 @@
     "@angular/router": "~13.2.0",
     "@nguniversal/express-engine": "^13.0.2",
     "express": "^4.15.2",
-    "mongoose": "^6.2.3",
+    "mongoose": "^6.1.6",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
